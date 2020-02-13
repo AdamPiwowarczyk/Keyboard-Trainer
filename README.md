@@ -1,6 +1,6 @@
 # Keyboard-Trainer
 Program jest napisany w języku c++, wykorzystuje bibliotekę QT oraz połączenie z bazą danych SQLite.  
-Aplikacja jest narzędziem do nauki szybkiego pisania na klawiaturze. Jego działanie opiera się na wyliczaniu parametrów przepisywania wyrazów pojawiających się w górnym wierszu do kontrolki poniżej. Parametry te to:  
+Aplikacja jest narzędziem do nauki szybkiego pisania na klawiaturze. Jej działanie opiera się na wyliczaniu parametrów przepisywania wyrazów pojawiających się w górnym wierszu do kontrolki poniżej. Parametry te to:  
 → prędkość podana w WMP (words per minute – słowa na minutę). Jako słowo jest tu rozumiane 5 naciśnięć klawiszy. Przykładowo wyraz „pięć” liczony jest jako 6 naciśnięć (litery „ę” oraz „ć”wymagają naciśnięcia klawisza „alt”), z kolei „~Łódź_65” to 15 naciśnięć (3 + 3 + 2 + 1 + 2 + 2 + 1 + 1), czyli 3 słowa. Prędkość jest aktualizowana co sekundę.  
 → celność – jako stosunek trafionych do wszystkich naciśnięć klawiszy. Do obliczenia celności brane jest pod uwagę pierwsze naciśnięcie klawisza na danej pozycji. W przypadku poprawienia znaku będzie się on jednak liczył jako poprawny w kalkulacji WPM,  
 → ilość poprawnie napisanych słów (poprawione znaki są uwzględniane),  
